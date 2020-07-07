@@ -2,13 +2,15 @@
 Anonymizes Date of Birth Format in Patient File Logs
 
 ### Detailed Setup Instructions
-Requires Installation of Boto3 Package to interact with AWS Cloud [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#installation)
+Requires Installation of Boto3 Package to interact with AWS S3 [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#installation)
 
 Requires Installation of AWS CLI Tools [AWSCLI](https://aws.amazon.com/cli/)
 
-After Successful Installation of AWS CLI
+Requires Installation of Python 3 [Python3](https://www.python.org/downloads/)
 
-Run ```aws configure``` in a Terminal / CMD window
+After completing the required installations
+
+**Run ```aws configure``` in a Terminal / CMD window**
 
 Enter in the Access Key ID and Secret Access Key to authenticate with AWS S3 Bucket
 
@@ -23,4 +25,4 @@ Step 3: Cleanup Function is run to remove month and day of DOB
 
 Step 4: New file is created locally with the modified data
 
-Step 5: The new file is uploaded to AWS Bucket with the same Object Key name to duplicate the existing logfile
+Step 5: The new file is uploaded to AWS Bucket with the same Object Key name to overwrite the original logfile
