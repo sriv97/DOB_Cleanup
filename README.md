@@ -6,11 +6,11 @@ Requires Installation of Boto3 Package to interact with AWS Cloud [Boto3](https:
 
 Requires Installation of AWS CLI Tools [AWSCLI](https://aws.amazon.com/cli/)
 
-After Installation of AWS CLI, 
+After Successful Installation of AWS CLI
 
-run ```aws configure``` 
+Run ```aws configure``` in a Terminal / CMD window
 
-and enter in the Access Key ID and Secret Access Key to authenticate with AWS Bucket
+Enter in the Access Key ID and Secret Access Key to authenticate with AWS S3 Bucket
 
 **_Please Note the Preset directory locations need to modified to your local working directory_**
 
