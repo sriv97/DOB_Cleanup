@@ -5,7 +5,12 @@ Anonymizes Date of Birth Format in Patient File Logs
 Requires Installation of Boto3 Package to interact with AWS Cloud [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#installation)
 
 Requires Installation of AWS CLI Tools [AWSCLI](https://aws.amazon.com/cli/)
-After Installation of AWS CLI, run ```aws configure``` and enter in the Access Key ID and Secret Access Key to authenticate with AWS Bucket
+
+After Installation of AWS CLI, 
+
+run ```aws configure``` 
+
+and enter in the Access Key ID and Secret Access Key to authenticate with AWS Bucket
 
 **_Please Note the Preset directory locations need to modified to your local working directory_**
 
